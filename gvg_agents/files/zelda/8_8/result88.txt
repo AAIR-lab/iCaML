@@ -1,0 +1,60 @@
+
+ff: parsing domain file
+domain 'ZELDA' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   13 into depth [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+STEP   0:   A0
+STEP   1:   A1
+STEP   2:   A2
+STEP   3:   A3
+STEP   4:   A4
+STEP   5:   A5
+STEP   6:   A6
+STEP   7:   A7
+STEP   8:   A8
+STEP   9:   A9
+STEP  10:   A10
+STEP  11:   A11
+STEP  12:   A12
+STEP  13:   A13
+STEP  14:   A14
+STEP  15:   A15
+
+
+time spent:    0.00 seconds instantiating 16 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 36 facts and 16 actions
+               0.00 seconds creating final representation with 36 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 24 states, to a max depth of 1
+               0.00 seconds total time
+

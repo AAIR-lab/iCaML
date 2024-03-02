@@ -1,0 +1,116 @@
+
+ff: parsing domain file
+domain 'SNOWMAN' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   25 into depth [1]
+                                  24            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   25
+                          24
+                          23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+STEP   0:   A0
+STEP   1:   A1
+STEP   2:   A2
+STEP   3:   A3
+STEP   4:   A4
+STEP   5:   A5
+STEP   6:   A6
+STEP   7:   A7
+STEP   8:   A8
+STEP   9:   A21
+STEP  10:   A22
+STEP  11:   A11
+STEP  12:   A12
+STEP  13:   A13
+STEP  14:   A14
+STEP  15:   A15
+STEP  16:   A16
+STEP  17:   A17
+STEP  18:   A18
+STEP  19:   A19
+STEP  20:   A20
+STEP  21:   A21
+STEP  22:   A22
+STEP  23:   A23
+STEP  24:   A26
+STEP  25:   A42
+STEP  26:   A43
+STEP  27:   A46
+STEP  28:   A48
+STEP  29:   A49
+STEP  30:   A50
+STEP  31:   A51
+STEP  32:   A52
+STEP  33:   A53
+STEP  34:   A54
+STEP  35:   A55
+STEP  36:   A56
+STEP  37:   A42
+STEP  38:   A58
+STEP  39:   A59
+STEP  40:   A48
+STEP  41:   A49
+STEP  42:   A32
+STEP  43:   A33
+STEP  44:   A34
+STEP  45:   A35
+STEP  46:   A36
+STEP  47:   A51
+STEP  48:   A52
+STEP  49:   A61
+STEP  50:   A62
+STEP  51:   A63
+STEP  52:   A64
+STEP  53:   A57
+STEP  54:   A66
+STEP  55:   A67
+STEP  56:   A68
+STEP  57:   A69
+STEP  58:   A70
+STEP  59:   A71
+STEP  60:   A72
+STEP  61:   A73
+
+
+time spent:    0.00 seconds instantiating 74 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 67 facts and 74 actions
+               0.00 seconds creating final representation with 67 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 87 states, to a max depth of 1
+               0.00 seconds total time
+

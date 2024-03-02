@@ -1,0 +1,88 @@
+
+ff: parsing domain file
+domain 'SNOWMAN' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   17 into depth [1]
+                                  16            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+STEP   0:   A0
+STEP   1:   A1
+STEP   2:   A11
+STEP   3:   A12
+STEP   4:   A5
+STEP   5:   A6
+STEP   6:   A7
+STEP   7:   A14
+STEP   8:   A15
+STEP   9:   A10
+STEP  10:   A16
+STEP  11:   A17
+STEP  12:   A18
+STEP  13:   A19
+STEP  14:   A20
+STEP  15:   A21
+STEP  16:   A22
+STEP  17:   A23
+STEP  18:   A24
+STEP  19:   A25
+STEP  20:   A26
+STEP  21:   A27
+STEP  22:   A28
+STEP  23:   A29
+STEP  24:   A30
+STEP  25:   A31
+STEP  26:   A18
+STEP  27:   A44
+STEP  28:   A45
+STEP  29:   A35
+STEP  30:   A36
+STEP  31:   A37
+STEP  32:   A38
+STEP  33:   A39
+STEP  34:   A40
+STEP  35:   A41
+STEP  36:   A42
+STEP  37:   A55
+STEP  38:   A43
+STEP  39:   A57
+STEP  40:   A58
+STEP  41:   A59
+
+
+time spent:    0.00 seconds instantiating 57 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 45 facts and 57 actions
+               0.00 seconds creating final representation with 45 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 55 states, to a max depth of 1
+               0.00 seconds total time
+

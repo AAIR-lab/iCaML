@@ -1,0 +1,58 @@
+
+ff: parsing domain file
+domain 'ESCAPE' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   12 into depth [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+STEP   0:   A0
+STEP   1:   A1
+STEP   2:   A2
+STEP   3:   A3
+STEP   4:   A4
+STEP   5:   A5
+STEP   6:   A6
+STEP   7:   A7
+STEP   8:   A8
+STEP   9:   A9
+STEP  10:   A10
+STEP  11:   A11
+
+
+time spent:    0.00 seconds instantiating 12 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 30 facts and 12 actions
+               0.00 seconds creating final representation with 30 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 23 states, to a max depth of 1
+               0.00 seconds total time
+

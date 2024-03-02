@@ -1,0 +1,972 @@
+------action_name:a0--------
+State before: 
+[['+' 'A']
+ ['g' '1']]
+State after: 
+[['+' 'A']
+ ['g' '.']]
+------action_name:a1--------
+State before: 
+[['+' 'A']
+ ['g' '.']]
+State after: 
+[['Q' '.']
+ ['g' '.']]
+------action_name:a2--------
+State before: 
+[['Q' '.']
+ ['g' '.']]
+State after: 
+[['.' '.']
+ ['g' '.']]
+------action_name:a4--------
+State before: 
+[['+' 'A']
+ ['g' '.']]
+State after: 
+[['+' '.']
+ ['g' 'A']]
+------action_name:a8--------
+State before: 
+[['Q' '.']
+ ['g' '.']]
+State after: 
+[['.' 'Q']
+ ['g' '.']]
+------action_name:a9--------
+State before: 
+[['.' 'Q']
+ ['g' '.']]
+State after: 
+[['Q' '.']
+ ['g' '.']]
+------action_name:a11--------
+State before: 
+[['+' 'A']
+ ['g' '1']]
+State after: 
+[['Q' '.']
+ ['g' '1']]
+------action_name:a12--------
+State before: 
+[['Q' '.']
+ ['g' '1']]
+State after: 
+[['.' '.']
+ ['g' '1']]
+------action_name:a15--------
+State before: 
+[['.' '.']
+ ['g' '1']]
+State after: 
+[['Q' '.']
+ ['g' '1']]
+------action_name:a18--------
+State before: 
+[['Q' '.']
+ ['g' '1']]
+State after: 
+[['.' 'Q']
+ ['g' '1']]
+------action_name:a19--------
+State before: 
+[['.' 'Q']
+ ['g' '1']]
+State after: 
+[['Q' '.']
+ ['g' '1']]
+------action_name:a36--------
+State before: 
+[['.' 'Q']
+ ['g' '1']]
+State after: 
+[['.' 'Q']
+ ['g' '.']]
+------action_name:a37--------
+State before: 
+[['.' 'Q']
+ ['g' '.']]
+State after: 
+[['.' '.']
+ ['g' 'Q']]
+------action_name:a38--------
+State before: 
+[['.' '.']
+ ['g' 'Q']]
+State after: 
+[['.' 'Q']
+ ['g' '.']]
+
+Predicted Model: 
+a0 :
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]  <--- why precondition?
+   monster_alive-monster_1_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   next_to_monster-: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+
+a1 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-key0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+
+a2 :
+   at-player0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a4 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-key0-cell_0_0: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a8 :
+   at-player0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a9 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a11 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-key0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a12 :
+   at-player0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-monster_1_1-cell_1_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a15 :
+   at-player0-cell_0_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a18 :
+   at-player0-cell_0_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a19 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   has_key-: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a36 :
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-key0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   next_to_monster-: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a37 :
+   at-player0-cell_1_0: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-key0-cell_0_0: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-player0-cell_1_1: [<Literal.ABS: 0>, <Literal.POS: 1>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+a38 :
+   at-player0-cell_1_1: [<Literal.POS: 1>, <Literal.NEG: -1>]
+   at-key0-cell_0_0: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   at-door0-cell_0_1: [<Literal.POS: 1>, <Literal.ABS: 0>]
+   escaped-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   has_key-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_0: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   next_to_monster-: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_0_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   monster_alive-monster_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-monster_1_1-cell_1_1: [<Literal.ABS: 0>, <Literal.ABS: 0>]
+   at-player0-cell_1_0: [<Literal.ABS: 0>, <Literal.POS: 1>]
+
+
+Action: a0
+Add effects:
+defaultdict(<class 'list'>, {})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('monster_1_1', 'cell_1_1')], 'monster_alive': [('monster_1_1',)], 'next_to_monster': [()]})
+Action: a1
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')], 'has_key': [()]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0'), ('key0', 'cell_0_0')]})
+Action: a2
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_1')], 'escaped': [()]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Action: a4
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_1')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')]})
+Action: a8
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Action: a9
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')]})
+Action: a11
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')], 'has_key': [()]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0'), ('key0', 'cell_0_0')], 'next_to_monster': [()]})
+Action: a12
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_1')], 'next_to_monster': [()]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Action: a15
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_1')], 'next_to_monster': [()]})
+Action: a18
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')], 'next_to_monster': [()]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Action: a19
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_0_0')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')], 'next_to_monster': [()]})
+Action: a36
+Add effects:
+defaultdict(<class 'list'>, {})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('monster_1_1', 'cell_1_1')], 'monster_alive': [('monster_1_1',)], 'next_to_monster': [()]})
+Action: a37
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_1')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')]})
+Action: a38
+Add effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_0')]})
+Deleted effects:
+defaultdict(<class 'list'>, {'at': [('player0', 'cell_1_1')]})
+
+---with static predicates --- 
+{ 'a0': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a1': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a10': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a12': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a13': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_0_1-cell_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a16': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a17': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a18': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a2': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a22': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a27': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a3': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a31': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a33': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a4': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'next_to_monster-': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a43': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+           'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+           'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+           'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+           'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a5': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a6': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_0_1': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a7': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]},
+  'a9': { 'above-cell_0_0-cell_0_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'above-cell_1_0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-door0-cell_1_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-key0-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'at-monster_0_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_0_0': [<Literal.ABS: 0>, <Literal.POS: 1>],
+          'at-player0-cell_0_1': [<Literal.POS: 1>, <Literal.NEG: -1>],
+          'at-player0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'at-player0-cell_1_1': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'below-cell_0_1-cell_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'below-cell_1_1-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'escaped-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'has_key-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'is_door-door0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_key-key0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_monster-monster_0_0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'is_player-player0': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'leftOf-cell_0_0-cell_1_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'leftOf-cell_0_1-cell_1_1': [<Literal.POS: 1>, <Literal.ABS: 0>],
+          'monster_alive-monster_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'next_to_monster-': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_0-cell_0_0': [<Literal.ABS: 0>, <Literal.ABS: 0>],
+          'rightOf-cell_1_1-cell_0_1': [<Literal.POS: 1>, <Literal.ABS: 0>]}}
+          Total Possible Models = 1
+
+Number of times Agent Executed = 1946
+
+Preprocessing Time = 0.07622408866882324
+
+Actual Predicates = 23
+
+Modified Predicates = 23
+
+Action Count = 20
+
+Object Count = 0
+
+Possible Model count = 1
+Combinations tried Count = 63
+Agent Execution Failed Count = 2179
+Total Agent Queries =  2606
+Total Unique Queries =  2431
+Repeated Queries =  175
+Invalid Init State =  2112
+No plan found count (q1) = 0
+Discarded model count = 43
+New Discard count = 0
+
+
+------action_name:a0--------
+State before: 
+[['1' 'g']
+ ['A' '+']]
+State after: 
+[['.' 'g']
+ ['A' '+']]
+------action_name:a1--------
+State before: 
+[['.' 'g']
+ ['A' '+']]
+State after: 
+[['.' 'g']
+ ['.' 'Q']]
+------action_name:a2--------
+State before: 
+[['.' 'g']
+ ['.' 'Q']]
+State after: 
+[['.' 'g']
+ ['.' '.']]
+------action_name:a3--------
+State before: 
+[['1' 'g']
+ ['.' 'Q']]
+State after: 
+[['1' 'g']
+ ['.' '.']]
+------action_name:a4--------
+State before: 
+[['1' 'g']
+ ['.' '.']]
+State after: 
+[['.' 'g']
+ ['.' '.']]
+------action_name:a5--------
+State before: 
+[['.' 'g']
+ ['.' '.']]
+State after: 
+[['Q' 'g']
+ ['.' '.']]
+------action_name:a6--------
+State before: 
+[['Q' 'g']
+ ['.' '.']]
+State after: 
+[['.' 'g']
+ ['Q' '.']]
+------action_name:a7--------
+State before: 
+[['.' 'g']
+ ['Q' '.']]
+State after: 
+[['Q' 'g']
+ ['.' '.']]
+------action_name:a9--------
+State before: 
+[['.' 'g']
+ ['A' '+']]
+State after: 
+[['A' 'g']
+ ['.' '+']]
+------action_name:a10--------
+State before: 
+[['A' 'g']
+ ['.' '+']]
+State after: 
+[['.' 'g']
+ ['A' '+']]
+------action_name:a12--------
+State before: 
+[['A' 'g']
+ ['.' '+']]
+State after: 
+[['.' 'g']
+ ['.' '+']]
+------action_name:a13--------
+State before: 
+[['.' 'g']
+ ['.' '+']]
+State after: 
+[['A' 'g']
+ ['.' '+']]
+------action_name:a16--------
+State before: 
+[['1' 'g']
+ ['A' '+']]
+State after: 
+[['1' 'g']
+ ['.' 'Q']]
+------action_name:a17--------
+State before: 
+[['1' 'g']
+ ['.' 'Q']]
+State after: 
+[['1' 'g']
+ ['Q' '.']]
+------action_name:a18--------
+State before: 
+[['1' 'g']
+ ['Q' '.']]
+State after: 
+[['1' 'g']
+ ['.' 'Q']]
+------action_name:a22--------
+State before: 
+[['1' 'g']
+ ['Q' '.']]
+State after: 
+[['.' 'g']
+ ['Q' '.']]
+------action_name:a27--------
+State before: 
+[['.' 'g']
+ ['.' '+']]
+State after: 
+[['.' 'g']
+ ['.' 'Q']]
+------action_name:a31--------
+State before: 
+[['.' 'g']
+ ['.' 'Q']]
+State after: 
+[['.' 'g']
+ ['Q' '.']]
+------action_name:a33--------
+State before: 
+[['1' 'g']
+ ['.' '.']]
+State after: 
+[['1' 'g']
+ ['.' 'Q']]
+------action_name:a43--------
+State before: 
+[['.' 'g']
+ ['Q' '.']]
+State after: 
+[['.' 'g']
+ ['.' 'Q']]
+Query Count:  2431
+Running Time:  407.06105971336365
